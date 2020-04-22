@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="A simple tip Calculator">
+    <title>Tip Calculator</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="heading">Tip Calculator</h1>
+        <div class="question">
+            <p>How much was your bill?</p>
+            <input type="number" id="amount" placeholder="Bill Amount" required><br><br>
+
+            <label for="service">How was your service?</label><br><br>
+            <select id="service" required>
+                <option value="none" selected disabled>Choose Option</option>
+                <option value="outstanding">30% Outstanding</option>
+                <option value="good">20% Good</option>
+                <option value="okay">15% Okay</option>
+                <option value="bad">10% Bad</option>
+                <option value="terrible">5% Terrible</option>
+            </select>
+
+            <p>How many people are sharing this bill?</p>
+            <input type="number" id="people" placeholder="Number of people" required><br><br>
+            <button type="button">Calculate</button>
+
+        </div>
+
+        <div class="tip-result visible">
+            <h3>Tip Amount</h3>
+            <h1 id="tip">$ 0</h1>
+            <h5>For Each</h5>
+            <button type="button" class="btn" href="index.html">Home</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with 💛 by Gowtham</p>
+    </footer>
+
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
+

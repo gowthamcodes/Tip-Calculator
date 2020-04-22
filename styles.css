@@ -1,0 +1,83 @@
+h1 {
+    color: #f4eeff;
+    font-size: 2rem;
+}
+
+h3, h5 {
+    color: #dcd6f7;
+}
+
+body {
+    background-color: #f67280;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+p, label {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding: 15px;
+    border: none;
+    margin: 7px auto;
+}
+
+button:hover {
+    background-color: red;
+}
+
+footer {
+    background-color: #363062;
+    margin: 0;
+    padding: 20px;
+}
+
+input {
+    width: 50%;
+    padding: 16px 20px;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+select {
+  width: 50%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.heading {
+    background-color: #faf4ff;
+    color: #d7385e;
+    padding: 15px;
+    margin: 0 0 30px;
+    border-radius: 0.5rem;
+}
+
+.container {
+    background-color: #355c7d;
+    border: 2px solid #ffb6b6;
+    height: 31rem;
+    width: 30rem;
+    margin: 70px auto;
+    border-radius: 1rem;
+}
+
+.visible {
+    visibility: hidden;
+}
+
+.tip-result {
+    position: relative;
+    bottom: 18.5rem;
+    margin: 0 auto;
+}
